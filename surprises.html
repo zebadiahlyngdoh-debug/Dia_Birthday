@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprises | DIA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="hearts" aria-hidden="true"></div>
+<header class="site-header">
+    <a class="brand" href="index.html">DIA</a>
+    <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="memories.html">Memories</a>
+        <a href="videos.html">Personal Letter</a>
+        <a href="surprises.html">Surprises</a>
+    </nav>
+</header>
+
+<main>
+    <section class="page-hero compact-hero">
+        <p class="eyebrow">Open slowly</p>
+        <h1>Surprises For You</h1>
+        <p>Little birthday gifts hidden behind taps, just for your smile.</p>
+    </section>
+
+    <section class="surprise-grid" aria-label="Birthday surprise cards">
+        <button class="surprise-card" data-message="Your smile is still my favorite notification.">
+            <span>01</span>
+            <h3>Smile Note</h3>
+            <p>Tap to open</p>
+        </button>
+        <button class="surprise-card" data-message="I am proud of the woman you are becoming, even on the days you cannot see it.">
+            <span>02</span>
+            <h3>Proud Note</h3>
+            <p>Tap to open</p>
+        </button>
+        <button class="surprise-card" data-message="May this year bring peace to your heart, courage to your dreams, and happiness that stays.">
+            <span>03</span>
+            <h3>Birthday Wish</h3>
+            <p>Tap to open</p>
+        </button>
+    </section>
+
+    <section class="reasons" aria-labelledby="reasons-title">
+        <div class="section-heading">
+            <p class="eyebrow">Still counting</p>
+            <h2 id="reasons-title">Reasons I Love You</h2>
+        </div>
+        <div class="reason-grid">
+            <div>Your smile</div>
+            <div>Your eyes</div>
+            <div>Your laugh</div>
+            <div>Your kind heart</div>
+            <div>Your beautiful soul</div>
+            <div>Your hugs</div>
+            <div>Your caring nature</div>
+            <div>Everything about you</div>
+            <div>Alsoooooooooo<br>Your Putt ba skiun eh 😂</div>
+        </div>
+    </section>
+
+    <section class="surprise final-surprise">
+        <div class="section-heading">
+            <p class="eyebrow">One last thing</p>
+            <h2>Final Surprise</h2>
+        </div>
+        <button id="gift" type="button" aria-label="Open final birthday surprise">🎁</button>
+        <p id="hiddenMessage">
+            ❤️ You are the greatest blessing in my life. I am always going to be proud of you.<br><br>
+            Once again, Happy Birthday, my darling.<br>
+            I love you forever.<br>
+            Muahhh<br>
+            Moiiiii<br>
+            — Bhabriew ❤️
+        </p>
+    </section>
+</main>
+
+<div class="message-modal" id="messageModal" aria-hidden="true">
+    <div class="message-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button type="button" id="closeModal" aria-label="Close surprise">×</button>
+        <h2 id="modalTitle">For You</h2>
+        <p id="modalMessage"></p>
+    </div>
+</div>
+
+<footer>Made with love by Bhabriew</footer>
+<script src="script.js"></script>
+</body>
+</html>
+
