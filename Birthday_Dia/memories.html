@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Memories | DIA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="hearts" aria-hidden="true"></div>
+<header class="site-header">
+    <a class="brand" href="index.html">DIA</a>
+    <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="memories.html">Memories</a>
+        <a href="videos.html">Personal Letter</a>
+        <a href="surprises.html">Surprises</a>
+    </nav>
+</header>
+
+<main>
+    <section class="page-hero compact-hero">
+        <p class="eyebrow">Every picture has a heartbeat</p>
+        <h1>Our Beautiful Memories</h1>
+        <p>Little pieces of us, saved here so you can open them whenever you need a smile.</p>
+    </section>
+
+    <section class="gallery-section">
+        <div class="gallery enhanced-gallery">
+            <button class="card memory-card" data-lightbox="images/photo1.jpg" data-caption="The day that changed everything ❤️">
+                <img src="images/photo1.jpg" alt="The day that changed everything">
+                <span>The day that changed everything</span>
+            </button>
+            <button class="card memory-card" data-lightbox="images/photo2.jpg" data-caption="Our happiest smile together 🌸">
+                <img src="images/photo2.jpg" alt="Our happiest smile together">
+                <span>Our happiest smile together</span>
+            </button>
+            <button class="card memory-card" data-lightbox="images/photo3.jpg" data-caption="One of my favorite memories ✨">
+                <img src="images/photo3.jpg" alt="One of my favorite memories">
+                <span>One of my favorite memories</span>
+            </button>
+            <button class="card memory-card" data-lightbox="images/photo4.jpg" data-caption="You make every place feel like home ❤️">
+                <img src="images/photo4.jpg" alt="You make every place feel like home">
+                <span>You make every place feel like home</span>
+            </button>
+            <button class="card memory-card" data-lightbox="images/photo5.jpg" data-caption="Another unforgettable day 💕">
+                <img src="images/photo5.jpg" alt="Another unforgettable day">
+                <span>Another unforgettable day</span>
+            </button>
+            <button class="card memory-card" data-lightbox="images/photo6.jpg" data-caption="Forever my favorite person 🌙">
+                <img src="images/photo6.jpg" alt="Forever my favorite person">
+                <span>Forever my favorite person</span>
+            </button>
+            <button class="card memory-card" data-lightbox="images/photo7.jpg" data-caption="Wrapped in love">
+                <img src="images/photo7.jpg" alt="Wrapped in love">
+                <span>Wrapped in love</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="timeline" aria-labelledby="timeline-title">
+        <div class="section-heading">
+            <p class="eyebrow">Tiny timeline</p>
+            <h2 id="timeline-title">Moments I Keep Replaying</h2>
+        </div>
+        <div class="timeline-list">
+            <article><span>01</span><p>When your smile became my favorite view.</p></article>
+            <article><span>02</span><p>When ordinary days started feeling special because you were in them.</p></article>
+            <article><span>03</span><p>When I realized home can be a person.</p></article>
+            <article><span>04</span><p>When I knew I would always be proud of you.</p></article>
+        </div>
+    </section>
+</main>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" type="button" aria-label="Close memory">×</button>
+    <img id="lightboxImage" src="" alt="Selected memory">
+    <p id="lightboxCaption"></p>
+</div>
+
+<footer>Made with love by Bhabriew</footer>
+<script src="script.js"></script>
+</body>
+</html>
+
